@@ -36,12 +36,17 @@
         border-radius: 3px;
     }
     &__title {
-        margin-bottom: 48px;
+        margin-bottom: 10px;
         font-family: @futura-b, Arial, Helvetica, sans-serif;
         font-size: 34px;
         line-height: 1.7;
         color: @header-title-col;
         text-transform: uppercase;
+    }
+    &__subtitle {
+        font-size: 28px;
+        color: @header-title-col;
+        margin-bottom: 40px;
     }
     &__slogan {
         margin-bottom: 42px;
@@ -97,6 +102,9 @@
             margin-bottom: 104px;
             font-size: 30px;
         }
+        &__bg-layout {
+            background-position: -320px 50%;
+        }
     }
 }
 @media @phone {
@@ -131,6 +139,9 @@
         &__right {
             margin-top: 0px;
             z-index: 5;
+        }
+        &__bg-layout {
+            background-position: -642px 50%;
         }
     }
 }

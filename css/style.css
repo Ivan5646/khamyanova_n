@@ -167,12 +167,18 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .header__title {
-	margin-bottom: 48px;
+	margin-bottom: 10px;
 	font-family: "FuturaPT-Bold", Arial, Helvetica, sans-serif;
 	font-size: 34px;
 	line-height: 1.7;
 	color: #FFE380;
 	text-transform: uppercase;
+}
+
+.header__subtitle {
+	font-size: 28px;
+	color: #FFE380;
+	margin-bottom: 40px;
 }
 
 .header__slogan {
@@ -788,6 +794,10 @@ input[type='number']::-webkit-outer-spin-button {
 	font-size: 30px;
 }
 
+.header__bg-layout {
+	background-position: -320px 50%;
+}
+
 .audience {
 	padding-top: 100px;
 	padding-bottom: 200px;
@@ -1038,6 +1048,10 @@ input[type='number']::-webkit-outer-spin-button {
 	z-index: 5;
 }
 
+.header__bg-layout {
+	background-position: -642px 50%;
+}
+
 .audience {
 	padding-top: 65px;
 	padding-bottom: 100px;
@@ -1107,6 +1121,7 @@ input[type='number']::-webkit-outer-spin-button {
 
 .middle-title {
 	padding-bottom: 64px;
+	background-position: -236px 50%;
 }
 
 .middle-title__text {
